@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "slopindustry",
+  "version": "${version}",
+  "name": "Create Slop Industry",
+  "description": "i <3 the sludge",
+  "authors": [
+    "Vercte"
+  ],
+  "contact": {
+    "sources": "https://github.com/vercte/slopindustry"
+  },
+  "license": "CC0",
+  "icon": "assets/slopindustry/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.vercte.slopindustry.SlopIndustryDataGenerator"
+    ],
+    "main": [
+      "net.vercte.slopindustry.SlopIndustry"
+    ],
+    "client": [
+      "net.vercte.slopindustry.SlopIndustryClient"
+    ]
+  },
+  "mixins": [
+    "slop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
