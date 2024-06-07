@@ -11,8 +11,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.material.FlowingFluid;
 
 @SuppressWarnings("null")
-public class SlopFluidBlock extends LiquidBlock {
-    public SlopFluidBlock(FlowingFluid fluid, Properties properties) {
+public class SlopLiquidBlock extends LiquidBlock {
+    public SlopLiquidBlock(FlowingFluid fluid, Properties properties) {
         super(fluid, properties);
     }
 

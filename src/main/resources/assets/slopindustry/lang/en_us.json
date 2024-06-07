@@ -1,4 +1,7 @@
 {
-    "item.slopindustry.slop_bucket": "Bucket of Slop",
+    "item.slopindustry.slop_bucket": "Slop Bucket",
+    "item.slopindustry.liquid_mud_bucket": "Liquefied Mud Bucket",
+    "block.slopindustry.slop": "Slop",
+    "block.slopindustry.liquid_mud": "Liquefied Mud",
     "effect.slopindustry.brainrot": "Brainrot"
 }

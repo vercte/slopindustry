@@ -1,0 +1,15 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:mud"
+        }
+    ],
+    "results": [
+        {
+            "fluid": "slopindustry:liquid_mud",
+            "amount": 27000
+        }
+    ],
+    "heatRequirement": "heated"
+}

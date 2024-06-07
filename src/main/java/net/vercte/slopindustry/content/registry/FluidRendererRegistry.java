@@ -17,5 +17,13 @@ public class FluidRendererRegistry {
         ));
 
         BlockRenderLayerMap.INSTANCE.putFluids(RenderType.translucent(), FluidRegistry.SOURCE_SLOP, FluidRegistry.FLOWING_SLOP);
+
+        FluidRenderHandlerRegistry.INSTANCE.register(FluidRegistry.SOURCE_LIQUID_MUD, FluidRegistry.FLOWING_LIQUID_MUD, new SimpleFluidRenderHandler(
+            new ResourceLocation("minecraft:block/water_still"),
+            new ResourceLocation("minecraft:block/water_flow"),
+            0x664229
+        ));
+
+        BlockRenderLayerMap.INSTANCE.putFluids(RenderType.translucent(), FluidRegistry.SOURCE_LIQUID_MUD, FluidRegistry.FLOWING_LIQUID_MUD);
     }
 }
