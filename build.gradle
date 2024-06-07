@@ -131,3 +131,17 @@ publishing {
 fabricApi {
     configureDataGeneration()
 }
+
+loom {
+	runs {
+		datagen {
+			client()
+
+			name "Data Generation"
+
+			vmArg "-Dfabric-api.datagen.modid=slopindustry"
+			vmArg "-Dporting_lib.datagen.existing_resources=${project.file("src/main/resources")}"
+		}
+
+	}
+}
