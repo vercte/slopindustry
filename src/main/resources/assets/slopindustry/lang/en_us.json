@@ -1,7 +1,9 @@
 {
     "item.slopindustry.slop_bucket": "Slop Bucket",
     "item.slopindustry.liquid_mud_bucket": "Liquefied Mud Bucket",
+    "item.slopindustry.glass_shards": "Glass Shards",
     "block.slopindustry.slop": "Slop",
     "block.slopindustry.liquid_mud": "Liquefied Mud",
-    "effect.slopindustry.brainrot": "Brainrot"
+    "effect.slopindustry.brainrot": "Brainrot",
+    "death.attack.slopindustry.fatal_rock_candy": "%s ate too much \"Fatal Rock Candy\""
 }

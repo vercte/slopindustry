@@ -4,7 +4,8 @@
     "package": "net.vercte.slopindustry.mixin",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
-        "LiquidBlockMixin"
+        "LiquidBlockMixin",
+        "ItemStackMixin"
     ],
     "client": [],
     "injectors": {
